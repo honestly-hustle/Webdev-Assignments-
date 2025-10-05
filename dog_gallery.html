@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f8f8f8;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>🐶 Dog Gallery 🐶</h1>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d" alt="Dog 1">
+    <img src="https://images.unsplash.com/photo-1507149833265-60c372daea22" alt="Dog 2">
+    <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a" alt="Dog 3">
+    <img src="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9" alt="Dog 4">
+    <img src="https://images.unsplash.com/photo-1583337130417-3346a1dbdc71" alt="Dog 5">
+    <img src="https://images.unsplash.com/photo-1525253086316-d0c936c814f8" alt="Dog 6">
+    <img src="https://images.unsplash.com/photo-1507149833265-60c372daea22" alt="Dog 7">
+    <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d" alt="Dog 8">
+    <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a" alt="Dog 9">
+  </div>
+</body>
+</html>
